@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
-  }
+}
   
   .topo{
     top: 0;
@@ -118,7 +118,7 @@ body {
  /* Estilo para a seção de apresentação */
 #inicio {
   background-image: url('imagem/background2.jpg'); /* Caminho para a imagem de fundo */
-  /*background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a área */
   background-position: center; /* Centraliza a imagem */
   color: #fff;
   text-align: center;
@@ -134,7 +134,7 @@ body {
 }
 
 .apresentacao h2 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .apresentacao p {
@@ -149,32 +149,48 @@ body {
 
 /* Estilo para a primeira coluna de texto */
 .coluna {
-  flex: 1; /* A primeira coluna expandirá para ocupar o espaço disponível */
-  padding: 20px;
+  flex: 1.5; /* A primeira coluna expandirá para ocupar o espaço disponível */
+  padding: 40px;
+  border: 2px solid #101229;
+  margin: 20px;
+  border-radius: 5px;
  
 }
 .coluna p{
   font-size: 25px;
   text-align: center;
+  color: #f5f5f5;
+ 
+}
+.coluna span {
+  font-size: 25px;
+  text-align:justify;
   font-weight: bold ;
 }
-
 /* Estilo para a segunda coluna de imagem */
 .colunab {
   flex: 1; /* A segunda coluna expandirá para ocupar o espaço disponível */
   padding: 20px;
-  text-align: center;
+  background-color:  #101229 ;
+  margin: 20px;
+  
+} 
+.colunab video {
+  width: 100%; /* Defina a largura do vídeo como 100% do contêiner pai */
+  max-height: 250px; /* Defina uma altura máxima para o vídeo (ajuste conforme necessário) */
 
 }
 
 button {
-  background-color: #333;
+  background-color: #381818;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  text-align: end;
+
 }
 
 button:hover {
@@ -186,8 +202,7 @@ button:hover {
 
 }
 
-/* Estilo para os cartões (cards) */
-/* Estilo para o contêiner de cartões (cards) */
+
 .card-container {
   display: flex ;
   justify-content: space-between; /* Distribui os cartões uniformemente horizontalmente */
@@ -282,5 +297,4 @@ button:hover {
     margin-top: 0;
     margin-bottom: 0;
 
-  
 }
