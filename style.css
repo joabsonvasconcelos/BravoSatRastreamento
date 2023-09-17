@@ -128,38 +128,27 @@ body {
 }
 
 .apresentacao {
-  background-color: rgba(0, 0, 0, 0.1); /* Fundo semi-transparente para legibilidade do texto */
-  padding: 10px;
-
-}
-
-.apresentacao h2 {
-  font-size: 40px;
-}
-
-.apresentacao p {
-  font-size: 18px;
-}
-/* Estilo para o contêiner da apresentação */
-.apresentacao_2 {
   display: flex;
   justify-content: space-between; /* Distribui as colunas igualmente horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+  align-items: center; 
 }
+.titulo p {
 
+  font-weight: 600;
+}
 /* Estilo para a primeira coluna de texto */
 .coluna {
   flex: 1.5; /* A primeira coluna expandirá para ocupar o espaço disponível */
   padding: 40px;
-  border: 2px solid #101229;
+  border: 2px solid #070137;
   margin: 20px;
   border-radius: 5px;
  
 }
 .coluna p{
   font-size: 25px;
-  text-align: center;
-  color: #f5f5f5;
+  text-align: center;p
+
  
 }
 .coluna span {
@@ -173,6 +162,7 @@ body {
   padding: 20px;
   background-color:  #101229 ;
   margin: 20px;
+  border-radius: 5px;
   
 } 
 .colunab video {
@@ -197,7 +187,7 @@ button:hover {
   background-color: #555;
 }
 
-.apresentacao_2 p{
+.apresentacao p{
   color: #101229;
 
 }
@@ -224,6 +214,40 @@ button:hover {
 .card h3 {
   font-size: 24px;
   color: #0c0735;
+}
+
+.card p {
+  font-size: 16px;
+  color: #666;
+}
+/* Estilo para a seção de serviços */
+#servicos {
+  display: flex;
+  justify-content: center; /* Distribui as colunas igualmente horizontalmente */
+  align-items: flex-start; /* Alinha as colunas no topo */
+  flex-wrap: wrap; /* Quebra para a próxima linha quando não houver espaço */
+  background-color: rgb(255, 255, 255);
+}
+
+.servicos h3 {
+  font-size: 600;
+}
+
+
+
+.card_servico {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  width: 20%;
+}
+
+.card_servico h3 {
+  font-size: 24px;
 }
 
 .card p {
