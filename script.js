@@ -1,0 +1,19 @@
+window.addEventListener("scroll", function() {
+    var menu = document.querySelector(".topo");
+    if (window.scrollY > 50) { // ou qualquer valor que você preferir
+        menu.classList.add("scroll-topo");
+    } else {
+        menu.classList.remove("scroll-topo");
+    }
+});
+
+
+window.addEventListener("scroll", function() {
+    var menu = document.querySelector(".menu");
+    if (window.scrollY > 100) { // ou qualquer valor que você preferir
+        menu.classList.add("scroll-menu");
+    } else {
+        menu.classList.remove("scroll-menu");
+    }
+});
+
