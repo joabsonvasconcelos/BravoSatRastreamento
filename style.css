@@ -174,11 +174,7 @@ body {
 
  
 }
-.coluna span {
-  font-size: 25px;
-  text-align:justify;
-  font-weight: bold ;
-}
+
 /* Estilo para a segunda coluna de imagem */
 .colunab {
   flex: 1; /* A segunda coluna expandirá para ocupar o espaço disponível */
@@ -279,7 +275,7 @@ button:hover {
 }
 /* Estilo para a seção de contato */
 #contato {
-  background-color: #f9f9f9;
+  background-color: #323455;
   padding: 40px 0;
 }
 
@@ -289,13 +285,14 @@ button:hover {
   margin: 0 auto;
   padding: 0 20px;
   text-align: center;
+  
 }
 
 /* Estilo para o título da seção */
 #contato h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: #333;
+  color: #ffffff;
 }
 
 /* Estilo para a seção de informações de contato e mapa */
@@ -304,6 +301,8 @@ button:hover {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  justify-content: space-between;
+
 }
 
 /* Estilo para a parte do formulário de contato */
@@ -314,6 +313,7 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
+  margin: 10px;
 }
 
 .formulario h3 {
@@ -332,16 +332,17 @@ button:hover {
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario textarea {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+  align-items: center;
 }
 
 .formulario button[type="submit"] {
-  background-color: #007bff;
+  background-color:#101229;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -358,7 +359,14 @@ button:hover {
   border-radius: 5px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   text-align: left;
+  margin: 10px;
 }
+.mapa p {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
 
 .mapa h3 {
   font-size: 24px;

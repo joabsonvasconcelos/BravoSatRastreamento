@@ -17,3 +17,14 @@ window.addEventListener("scroll", function() {
     }
 });
 
+
+$(document).ready(function() {
+    $('#telefone').inputmask('(99) 9999-9999'); // Define a máscara de telefone
+});
+
+$(document).ready(function() {
+    $('#celular').inputmask('(99) 99999-9999'); // Define a máscara de telefone
+});
+
+
+
