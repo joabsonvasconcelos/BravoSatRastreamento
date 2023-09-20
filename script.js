@@ -27,4 +27,32 @@ $(document).ready(function() {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+    // Encontre todos os links de âncora no menu
+    const linksDoMenu = document.querySelectorAll('.menu a');
+
+    // Adicione um evento de clique a cada link do menu
+    linksDoMenu.forEach(function (link) {
+        link.addEventListener('click', function (event) {
+            // Previne o comportamento padrão de clicar em um link
+            event.preventDefault();
+
+            // Obtém o destino do link (por exemplo, "#inicio", "#sobre", "#contato")
+            const destino = this.getAttribute('href');
+
+            // Obtém o elemento de destino usando o ID
+            const elementoDestino = document.querySelector(destino);
+
+            // Obtém a posição do topo do elemento de destino
+            const posicaoTopo = elementoDestino.offsetTop;
+
+            // Define o deslocamento suave para o topo do elemento de destino
+            window.scrollTo({
+                top: posicaoTopo,
+                behavior: 'smooth' // Rolagem suave
+            });
+        });
+    });
+});
+
 
