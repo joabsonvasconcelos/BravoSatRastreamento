@@ -141,7 +141,7 @@ body {
   background-position: center;
   color: #fff;
   text-align: center;
-  height: 100vh; /* Corrigi a unidade vh */
+  height: 90vh; /* Corrigi a unidade vh */
   width: 100%;
 }
 
@@ -152,28 +152,40 @@ body {
   flex-wrap: wrap;
 }
 
-.titulo p {
-  font-weight: 600;
-}
 
 /* Estilo para a primeira coluna de texto */
 .coluna {
   flex: 1.5;
-  padding: 40px;
+  padding: 10px;
   border: 2px solid #070137;
   margin: 20px;
   border-radius: 5px;
 }
+.titulo h1 {
+  font-weight: 900;
+  color: #0c0735;
+  font-size: 50px;
+  margin-bottom: -20px;
+  margin-top: 20px;
+}
+.titulo span {
+  color:#ffffff;
+}
+.coluna h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
 
 .coluna p {
-  font-size: 25px;
-  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* Estilo para a segunda coluna de imagem */
 .colunab {
   flex: 1;
-  padding: 20px;
+  padding: 10px;
   background-color: #101229;
   margin: 20px;
   border-radius: 5px;
@@ -212,11 +224,11 @@ button:hover {
 
 /* Estilo para os cartões (cards) */
 .card {
-  width: calc(30% - 20px);
+  width: calc(50% - 20px);
   background-color: #f5f5f5;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 20px;
+  padding: 30px;
   margin-right: 20px;
   margin-left: 20px;
   text-align: center;
